@@ -1,0 +1,32 @@
+@import './styles/variables';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 4rem;
+  display: flex;
+  //align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  //justify-content: center;
+}
+
+.App-link {
+  color: $default-text-color;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
